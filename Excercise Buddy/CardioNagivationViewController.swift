@@ -17,7 +17,7 @@ class CardioNagivationViewController: UINavigationController {
         super.viewDidLoad()
         self.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationBar.shadowImage = UIImage()
-        self.navigationBar.isTranslucent = false
+        self.navigationBar.isTranslucent = true
         // Do any additional setup after loading the view.
     }
 

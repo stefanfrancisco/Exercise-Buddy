@@ -36,6 +36,7 @@ class CardioViewController: UIViewController {
         imageView.clipsToBounds = true
         imageView.image = background
         imageView.center = view.center
+        imageView.alpha = 0.6
         view.addSubview(imageView)
         self.view.sendSubview(toBack: imageView)
     }
