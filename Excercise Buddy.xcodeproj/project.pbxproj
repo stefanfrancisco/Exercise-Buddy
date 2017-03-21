@@ -10,9 +10,6 @@
 		3A6FD7DA1E80BC6A002A2999 /* CardioNagivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FD7D91E80BC6A002A2999 /* CardioNagivationViewController.swift */; };
 		3A6FD7E01E80BD4A002A2999 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FD7DF1E80BD4A002A2999 /* User.swift */; };
 		3A6FD7E31E8109BC002A2999 /* PilotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FD7E21E8109BC002A2999 /* PilotViewController.swift */; };
-		3AD726FF1E81804600424CF8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD726FE1E81804600424CF8 /* LoginViewController.swift */; };
-		3AD727011E81805100424CF8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD727001E81805100424CF8 /* RegisterViewController.swift */; };
-		3AD727031E8183E400424CF8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD727021E8183E400424CF8 /* TabBarViewController.swift */; };
 		4DDCE8EFAB8D70D4BCBE9B41 /* Pods_Excercise_Buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFA152B4D04A0BA1DB36A0F /* Pods_Excercise_Buddy.framework */; };
 		989F7205385330960BB96A71 /* Pods_Excercise_BuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9776623201B2F93D28A66D56 /* Pods_Excercise_BuddyTests.framework */; };
 		C45BCB5B03F03E0419A5AB51 /* Pods_Excercise_BuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE468D8C9AA79283660AACF9 /* Pods_Excercise_BuddyUITests.framework */; };
@@ -53,9 +50,6 @@
 		3A6FD7D91E80BC6A002A2999 /* CardioNagivationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardioNagivationViewController.swift; sourceTree = "<group>"; };
 		3A6FD7DF1E80BD4A002A2999 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3A6FD7E21E8109BC002A2999 /* PilotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PilotViewController.swift; sourceTree = "<group>"; };
-		3AD726FE1E81804600424CF8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		3AD727001E81805100424CF8 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		3AD727021E8183E400424CF8 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		3E03465E450796F7AE07549F /* Pods-Excercise BuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Excercise BuddyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Excercise BuddyUITests/Pods-Excercise BuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AFA152B4D04A0BA1DB36A0F /* Pods_Excercise_Buddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Excercise_Buddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6BB29735ECCEDD3C9F8C69 /* Pods-Excercise BuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Excercise BuddyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Excercise BuddyUITests/Pods-Excercise BuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,18 +128,17 @@
 			isa = PBXGroup;
 			children = (
 				3A6FD7DE1E80BD2F002A2999 /* ViewControllers */,
-				3A6FD7DD1E80BD27002A2999 /* Supplements */,
+				3A6FD7DD1E80BD27002A2999 /* NagivationViews */,
 			);
 			name = Views;
 			sourceTree = "<group>";
 		};
-		3A6FD7DD1E80BD27002A2999 /* Supplements */ = {
+		3A6FD7DD1E80BD27002A2999 /* NagivationViews */ = {
 			isa = PBXGroup;
 			children = (
 				3A6FD7D91E80BC6A002A2999 /* CardioNagivationViewController.swift */,
-				3AD727021E8183E400424CF8 /* TabBarViewController.swift */,
 			);
-			name = Supplements;
+			name = NagivationViews;
 			sourceTree = "<group>";
 		};
 		3A6FD7DE1E80BD2F002A2999 /* ViewControllers */ = {
@@ -154,8 +147,6 @@
 				DB1F1C3F1E80698E00FB06DB /* CardioViewController.swift */,
 				DBD97FA01E80A68F0016581B /* AddCardioViewController.swift */,
 				3A6FD7E21E8109BC002A2999 /* PilotViewController.swift */,
-				3AD726FE1E81804600424CF8 /* LoginViewController.swift */,
-				3AD727001E81805100424CF8 /* RegisterViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -513,16 +504,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A6FD7E01E80BD4A002A2999 /* User.swift in Sources */,
-				3AD727011E81805100424CF8 /* RegisterViewController.swift in Sources */,
 				DBD97FA11E80A68F0016581B /* AddCardioViewController.swift in Sources */,
 				3A6FD7DA1E80BC6A002A2999 /* CardioNagivationViewController.swift in Sources */,
-				3AD727031E8183E400424CF8 /* TabBarViewController.swift in Sources */,
 				3A6FD7E31E8109BC002A2999 /* PilotViewController.swift in Sources */,
 				DB1F1C421E80698E00FB06DB /* SecondViewController.swift in Sources */,
 				DB1F1C3E1E80698E00FB06DB /* AppDelegate.swift in Sources */,
 				DB1F1C6E1E806F6D00FB06DB /* CustomTabBarController.swift in Sources */,
 				DB1F1C401E80698E00FB06DB /* CardioViewController.swift in Sources */,
-				3AD726FF1E81804600424CF8 /* LoginViewController.swift in Sources */,
 				DBD97F9F1E8099A30016581B /* CardioExercises.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

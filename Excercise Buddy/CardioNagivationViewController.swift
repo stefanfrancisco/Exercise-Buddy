@@ -10,7 +10,6 @@ import UIKit
 /**
  * Was going to use this for making a more transparent navigation header.
  * Will add on at a later time
- * I want to make nav bar a little transparent
  */
 class CardioNagivationViewController: UINavigationController {
 
@@ -18,7 +17,7 @@ class CardioNagivationViewController: UINavigationController {
         super.viewDidLoad()
         self.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationBar.shadowImage = UIImage()
-        self.navigationBar.isTranslucent = true
+        self.navigationBar.isTranslucent = false
         // Do any additional setup after loading the view.
     }
 
