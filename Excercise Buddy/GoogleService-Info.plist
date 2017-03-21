@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>786807110413-74873qh1849pdgnon7m9rbthb1ls002q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.786807110413-74873qh1849pdgnon7m9rbthb1ls002q</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCp3JT-mu8cl8bjec3PZaaJ4khfvYhF_r8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>786807110413</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Smart-Tools.Excercise-Buddy</string>
+	<key>PROJECT_ID</key>
+	<string>exercisebuddy-c779a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>exercisebuddy-c779a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:786807110413:ios:3b61561c27807fce</string>
+	<key>DATABASE_URL</key>
+	<string>https://exercisebuddy-c779a.firebaseio.com</string>
+</dict>
+</plist>
