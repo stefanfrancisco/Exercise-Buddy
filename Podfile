@@ -9,6 +9,7 @@ target 'Excercise Buddy' do
   pod 'Firebase'
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'EFCountingLabel', '~> 1.0.0'
   target 'Excercise BuddyTests' do
     inherit! :search_paths
     # Pods for testing

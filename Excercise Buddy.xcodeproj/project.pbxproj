@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A68D3971E830B7A00CE71EB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A68D3961E830B7A00CE71EB /* TabBarViewController.swift */; };
+		3A68D39B1E830EC500CE71EB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A68D39A1E830EC500CE71EB /* SWRevealViewController.m */; };
+		3A68D39E1E830F0D00CE71EB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A68D39D1E830F0D00CE71EB /* MenuViewController.swift */; };
 		3A6FD7DA1E80BC6A002A2999 /* CardioNagivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FD7D91E80BC6A002A2999 /* CardioNagivationViewController.swift */; };
 		3A6FD7E01E80BD4A002A2999 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FD7DF1E80BD4A002A2999 /* User.swift */; };
 		3A6FD7E31E8109BC002A2999 /* PilotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FD7E21E8109BC002A2999 /* PilotViewController.swift */; };
@@ -47,6 +50,11 @@
 /* Begin PBXFileReference section */
 		04C74FCD58EB98B32ADF18A1 /* Pods-Excercise Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Excercise Buddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Excercise Buddy/Pods-Excercise Buddy.release.xcconfig"; sourceTree = "<group>"; };
 		38A4BAD86E70199B0D9B1F38 /* Pods-Excercise Buddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Excercise Buddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Excercise Buddy/Pods-Excercise Buddy.debug.xcconfig"; sourceTree = "<group>"; };
+		3A68D3961E830B7A00CE71EB /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		3A68D3981E830EC400CE71EB /* Excercise Buddy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Excercise Buddy-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A68D3991E830EC500CE71EB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		3A68D39A1E830EC500CE71EB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		3A68D39D1E830F0D00CE71EB /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3A6FD7D91E80BC6A002A2999 /* CardioNagivationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardioNagivationViewController.swift; sourceTree = "<group>"; };
 		3A6FD7DF1E80BD4A002A2999 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3A6FD7E21E8109BC002A2999 /* PilotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PilotViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +123,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3A68D39C1E830ECE00CE71EB /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A68D3991E830EC500CE71EB /* SWRevealViewController.h */,
+				3A68D3981E830EC400CE71EB /* Excercise Buddy-Bridging-Header.h */,
+				3A68D39A1E830EC500CE71EB /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
 		3A6FD7DB1E80BD13002A2999 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				3A6FD7D91E80BC6A002A2999 /* CardioNagivationViewController.swift */,
+				3A68D3961E830B7A00CE71EB /* TabBarViewController.swift */,
 			);
 			name = NagivationViews;
 			sourceTree = "<group>";
@@ -144,9 +163,11 @@
 		3A6FD7DE1E80BD2F002A2999 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3A68D39C1E830ECE00CE71EB /* SWRevealViewController */,
 				DB1F1C3F1E80698E00FB06DB /* CardioViewController.swift */,
 				DBD97FA01E80A68F0016581B /* AddCardioViewController.swift */,
 				3A6FD7E21E8109BC002A2999 /* PilotViewController.swift */,
+				3A68D39D1E830F0D00CE71EB /* MenuViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -298,6 +319,7 @@
 				TargetAttributes = {
 					DB1F1C391E80698E00FB06DB = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					DB1F1C4F1E80698F00FB06DB = {
@@ -510,7 +532,10 @@
 				DB1F1C421E80698E00FB06DB /* SecondViewController.swift in Sources */,
 				DB1F1C3E1E80698E00FB06DB /* AppDelegate.swift in Sources */,
 				DB1F1C6E1E806F6D00FB06DB /* CustomTabBarController.swift in Sources */,
+				3A68D39E1E830F0D00CE71EB /* MenuViewController.swift in Sources */,
 				DB1F1C401E80698E00FB06DB /* CardioViewController.swift in Sources */,
+				3A68D39B1E830EC500CE71EB /* SWRevealViewController.m in Sources */,
+				3A68D3971E830B7A00CE71EB /* TabBarViewController.swift in Sources */,
 				DBD97F9F1E8099A30016581B /* CardioExercises.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,10 +689,13 @@
 			baseConfigurationReference = 38A4BAD86E70199B0D9B1F38 /* Pods-Excercise Buddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Excercise Buddy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Smart-Tools.Excercise-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Excercise Buddy/Excercise Buddy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -677,10 +705,12 @@
 			baseConfigurationReference = 04C74FCD58EB98B32ADF18A1 /* Pods-Excercise Buddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Excercise Buddy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Smart-Tools.Excercise-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Excercise Buddy/Excercise Buddy-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

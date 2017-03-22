@@ -8,16 +8,23 @@
 
 import UIKit
 import FirebaseDatabase
-
+import EFCountingLabel
 
 class CardioViewController: UIViewController {
     var initialized = false;
-    @IBOutlet var numberOfMilesDisplay: UILabel!
-    
+    @IBOutlet weak var numberOfMilesDisplay: EFCountingLabel!
+    @IBOutlet var menuButton: UIBarButtonItem!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         initializeBackground()
+        setupLabels()
+        startCount()
+        if self.revealViewController() != nil {
+            menuButton.target = self.revealViewController()
+            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
+            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,6 +48,16 @@ class CardioViewController: UIViewController {
         self.view.sendSubview(toBack: imageView)
     }
   
+    func setupLabels(){
+        //storyboard
+        self.numberOfMilesDisplay.method = .easeInOut
+        self.numberOfMilesDisplay.format = "%d"
+        
+        
+    }
+    func startCount() {
+        self.numberOfMilesDisplay.countFrom(0, to: 328)
+    }
 
 }
 

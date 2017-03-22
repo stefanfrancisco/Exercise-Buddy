@@ -1,4 +1,5 @@
 PODS:
+  - EFCountingLabel (1.0.1)
   - Firebase (3.15.0):
     - Firebase/Core (= 3.15.0)
   - Firebase/Core (3.15.0):
@@ -21,11 +22,13 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.1)
 
 DEPENDENCIES:
+  - EFCountingLabel (~> 1.0.0)
   - Firebase
   - Firebase/Core
   - Firebase/Database
 
 SPEC CHECKSUMS:
+  EFCountingLabel: fcdf2193bb02ee77e0e0e8f72a1eb5931c54aa41
   Firebase: 2b1cdfba1cda8589f32904a697cc753322bff9d8
   FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
   FirebaseCore: a024587e43778508700af8c6b1209f7c4516ba02
@@ -33,6 +36,6 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
 
-PODFILE CHECKSUM: e20c6f1284c605eca30f956f62d577c39f9f85ca
+PODFILE CHECKSUM: d3621003c92f3c1a97124ae32a6cac191bc4f616
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.1.1
